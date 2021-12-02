@@ -1,0 +1,191 @@
+/* Для экранов менее 1140px */
+@media (max-width: 1140px) {
+  .card {
+    width: calc(50% - 15px);
+  }
+  .footer {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  .footer-row {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-col {
+    margin-bottom: 20px;
+    line-height: 5;
+  }
+  .footer-col:first-child {
+    margin-bottom: 0;
+  }
+  .footer-icons-row > * + * {
+    /* Обращаемся ко всем элементам, кроме первого, на первом уровне вложенности, чтобы прописать для каждой иконки отступы */
+    margin-left: 45px;
+  }
+}
+/* Для экранов менее 760px */
+@media (max-width: 760px) {
+  .header-title {
+    font-size: 32px;
+  }
+  .header-subtitle {
+    font-size: 14px;
+  }
+  .portfolio {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  .portfolio-header {
+    font-size: 32px;
+    padding-bottom: 30px;
+  }
+  .card {
+    min-width: 530px;
+    width: 100%;
+  }
+  .portfolio-cards-wrapper {
+    justify-content: center;
+  }
+  .card-link {
+    padding: 15px;
+  }
+  .card:nth-last-child(2) {
+    /*  Псевдоселектор Выбирает предпоследнюю карточку в рамках контейнера(по номеру с конца)*/
+    margin-bottom: 30px;
+  }
+  .card-img {
+    margin-bottom: 10;
+  }
+  .card-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .card p {
+    font-size: 14px;
+  }
+  .footer-copirate {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .footer-copirate p {
+    font-size: 14px;
+  }
+  .footer-icons p {
+    font-size: 14px;
+  }
+  .footer-contact p {
+    font-size: 14px;
+  }
+  .footer-col:first-child {
+    margin-bottom: 0;
+  }
+  .footer-icons-row > * + * {
+    /* Обращаемся ко всем элементам, кроме первого, на первом уровне вложенности, чтобы прописать для каждой иконки отступы */
+    margin-left: 35px;
+  }
+  .project {
+    padding: 40px 0 60px;
+  }
+  .project-header {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  .project-img {
+    margin-bottom: 20px;
+  }
+  .project-description {
+    margin-bottom: 50px;
+  }
+  .project-botton-break {
+    padding: 0 10px;
+    width: 100%;
+    min-width: 320px;
+  }
+  .project-description p {
+  }
+}
+
+/* для экранов менее 479px*/
+@media (max-width: 580px) {
+  .header {
+    max-width: 580px;
+  }
+  .header-title {
+    font-size: 24px;
+  }
+  .header-subtitle {
+    font-size: 12px;
+  }
+  .portfolio {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  .portfolio-header {
+    font-size: 24px;
+    padding-bottom: 0px;
+  }
+  .card {
+    min-width: 350px;
+    width: 100%;
+  }
+  .portfolio-cards-wrapper {
+    justify-content: center;
+  }
+  .card-link {
+    padding: 15px;
+  }
+  .card:nth-last-child(2) {
+    /*  Псевдоселектор Выбирает предпоследнюю карточку в рамках контейнера(по номеру с конца)*/
+    margin-bottom: 30px;
+  }
+  .card-img {
+    margin-bottom: 10;
+  }
+  .card-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .card p {
+    font-size: 14px;
+  }
+  .footer-copirate {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .footer-copirate p {
+    font-size: 14px;
+  }
+  .footer-icons p {
+    font-size: 14px;
+  }
+  .footer-icons-row > * + * {
+    /* Обращаемся ко всем элементам, кроме первого, на первом уровне вложенности, чтобы прописать для каждой иконки отступы */
+    margin-left: 35px;
+    margin-top: 10px;
+  }
+  .footer-col:first-child {
+    margin-bottom: 0;
+  }
+  .footer-contact p {
+    font-size: 12px;
+  }
+  .project {
+    padding: 40px 0 60px;
+  }
+  .project-header {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+  .project-img {
+    margin-bottom: 10px;
+  }
+  .project-description {
+    margin-bottom: 10px;
+  }
+  .project-botton-break {
+    padding: 0 10px;
+    width: 100%;
+    min-width: 100px;
+  }
+}
